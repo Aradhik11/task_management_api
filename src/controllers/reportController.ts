@@ -52,7 +52,7 @@ export const getTaskReport = async (req: AuthRequest, res: Response, next: NextF
 
 /**
  * @swagger
- * /report-time:
+ * /report/report-time:
  *   get:
  *     summary: Get time tracking report
  *     tags: [Reports]
