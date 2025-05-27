@@ -58,7 +58,7 @@ task-management-api/
 
 1. Clone the repository:
 ```bash
-git clone <repository-url>
+git clone https://github.com/Aradhik11/task_management_api.git
 cd task-management-api
 ```
 
@@ -69,7 +69,7 @@ npm install
 
 3. Create a PostgreSQL database:
 ```sql
-CREATE DATABASE task_management;
+CREATE DATABASE task_management_api_db;
 ```
 
 4. Create a `.env` file in the root directory:
