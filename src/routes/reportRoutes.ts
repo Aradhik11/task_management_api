@@ -15,6 +15,6 @@ const router = Router();
 router.use(authenticateToken);
 
 router.get('/', getTaskReport);
-router.get('/time', getTimeReport);
+router.get('/report-time', getTimeReport);
 
 export default router;
