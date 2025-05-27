@@ -12,7 +12,7 @@ const sequelize = new Sequelize({
   dialect: 'postgres',
   logging: process.env.NODE_ENV === 'development' ? console.log : false,
   dialectOptions: {
-    ssl: process.env.NODE_ENV === 'development' ? {
+    ssl: process.env.NODE_ENV === 'production' ? {
       require: true,
       rejectUnauthorized: false
     } : false
