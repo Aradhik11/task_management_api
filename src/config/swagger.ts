@@ -11,7 +11,7 @@ const options = {
     servers: [
       {
         url: process.env.NODE_ENV === 'production' 
-          ? 'https://your-api-domain.com' 
+          ? 'https://task-management-api-nrrc.onrender.com' 
           : 'http://localhost:3000',
         description: process.env.NODE_ENV === 'production' ? 'Production server' : 'Development server',
       },

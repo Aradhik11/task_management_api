@@ -22,8 +22,11 @@ const PORT = process.env.PORT || 3000;
 // Security middleware
 app.use(helmet());
 app.use(cors({
-  origin: process.env.CORS_ORIGIN || '*',
+  origin: process.env.CORS_ORIGIN ? process.env.CORS_ORIGIN.split(',') : '*',
+  methods: ['GET', 'POST', 'PUT', 'DELETE', 'PATCH'],
+  allowedHeaders: ['Content-Type', 'Authorization'],
   credentials: true,
+  maxAge: 86400, // 24 hours
 }));
 
 // Body parsing middleware

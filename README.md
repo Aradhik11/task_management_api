@@ -95,5 +95,5 @@ npm run db:sync
 npm run dev
 ```
 
-The API will be available at `http://localhost:3000`
-API Documentation will be available at `http://localhost:3000/api-docs`
+The API will be available at `https://task-management-api-nrrc.onrender.com`
+API Documentation will be available at `https://task-management-api-nrrc.onrender.com/api-docs`
